@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(161, 33, 33);
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: gray;
+}
+
+.content {
+    padding: 15px;
+}
+
+.contact p {
+    text-align: center;
+}
