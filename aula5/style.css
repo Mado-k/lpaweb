@@ -1,0 +1,15 @@
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 50%;
+    height: 100%;
+}
+
+ol.numerado {
+        counter-reset: item;
+      }
+
+      ol.numerado li h2::before {
+        counter-increment: item;
+        content: counter(item) ". ";
+      }
