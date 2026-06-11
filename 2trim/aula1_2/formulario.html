@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    <h1>Para que serve o FORM?</h1>
+    <p>Serve para coletar informações do usuário. E também para enviar essas informações para um servidor.</p>
+    
+    <h1>Como usar o label?</h1>
+    <p>Para usar o label, basta começar com a tag "<label>", e fechando-a com a tag "</label>" e associar ao elemento correspondente usando o atributo "for".
+        Exemplo:  <label for="nome">Nome:</label> <input type="text" id="nome" name="nome"> 
+    </p>
+
+    <h1>O que é o input?</h1>
+    <p>O input é um elemento HTML que permite ao usuário inserir dados. Ele pode ser usado para diferentes tipos de entrada, como texto, número, email, etc. Você precisa chamá-lo utilizando a tag <input> </p>
+    -->
+
+    <h1>Exemplo de formulário:</h1>
+    <form action="" method="post">
+        <label for="nome">Nome:</label>
+        <!--for="" é utilizado para associar o label ao input correspondente-->
+        <input type="text" id="nome" name="nome"><br><br>
+        <!-- o for="nome" acima deste código está recebendo o id "nome", que é associado ao label, e o name="" é o nome do input, aonde os dados serão enviados -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea><br><br>
+        <input type="submit" value="enviar">
+        <!-- o type="submit" é usado para criar um botão de envio, e o value="enviar" é o texto que aparecerá no botão -->
+    </form>
+
+    <h1>Form com checkbox:</h1>
+
+    <form action="teste.php" method="get">
+        <label for="nome">nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="time">Selecione os times que você gosta:</label><br>
+        <input type="radio" id="time1" class="radio" name="time" value="flamengo">
+        <label for="time1">Flamengo</label>
+        <input type="radio" id="time2" class="radio" name="time" value="Red Bull">
+        <!--type="radio" são usados para criar opções de seleção única, ao contrário da type="checkbox", os value="" são os valores associados a cada opção-->
+        <label for="time2">Red Bull</label>
+        <input type="radio" id="time3" class="radio" name="time" value="Palmeiras">
+        <label for="time3">Palmeiras</label>
+        <input type="radio" id="time4" class="radio" name="time" value="Ferrari">
+        <label for="time4">Ferrari</label><br><br>
+        <input type="submit" value="enviar">
+
+        <!-- conseguimos mostrar uma opção em um conjunto de opções -->
+         <br><br>
+         <label for="esporte">Selecione os esportes que você gosta:</label><br>
+         <select name="esporte" id="esporte">
+             <option value="futebol">Futebol</option>
+             <option value="basquete">Basquete</option>
+             <option value="volei">Vôlei</option>
+         </select><br><br>
+        <input type="submit" value="enviar">
+    </form>
+
+    <!-- Validação de formulário com atributos HMTL -->
+    
+    <h1>Validação de formulário com atributos HTML:</h1>
+
+    <form action="get">
+        <label for="nome" class="label">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <!-- o required é um atributo que torna o campo obrigatório, ou seja, o usuário não pode enviar o formulário sem preencher esse campo -->
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" min="18" max="67">
+        <!-- o min e max são atributos que definem o valor mínimo e máximo que o usuário pode inserir no campo de número -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digite um email válido"><br><br>
+        <!-- o pattern é um atributo que define uma expressão regular para validar o formato do email, e o title é um atributo que exibe uma mensagem de erro personalizada quando o formato do email não é válido -->
+        <input type="submit" value="enviar">
+    </form>
+
+    <!-- Tipos de campos específicos -->
+
+    <h1>Tipos de campos específicos:</h1>
+    
+    <form>
+        <button type="button">botão</button>
+        <!-- o type="button" é usado para criar um botão que não tem uma função específica, ou seja, ele não envia o formulário -->
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data"><br><br>
+        <!-- o type="date" é usado para criar um campo de data, onde o usuário pode selecionar uma data a partir de um calendário -->
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora"><br><br>
+        <!-- o type="time" é usado para criar um campo de hora, onde o usuário pode selecionar uma hora a partir de um relógio -->
+        <label for="cor">Cor:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+        <!-- o type="color" é usado para criar um campo de cor, onde o usuário pode selecionar uma cor a partir de uma paleta de cores -->
+        <label for="arquivo">Arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+        <label for="hidden">Campo oculto:</label>
+        <input type="hidden" id="usuarioid" name="usuarioid" value="12345"></br><br>
+        <!-- o type="hidden" é usado para criar um campo oculto, ou seja, ele não é exibido para o usuário, mas pode ser usado para enviar informações adicionais para o servidor -->
+        <input type="reset" value="limpar">
+        <input type="search" id="busca" name="buscar">
+
+    </form>
+</body>
+</html>

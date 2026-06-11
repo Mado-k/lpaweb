@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('max verstappen.jfif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(139, 131, 131);
+    width: 30vw;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
