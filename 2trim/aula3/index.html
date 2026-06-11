@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="aula3.php" method="post">
+        <!-- Formulário de nome 7.1 -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        <!-- Formulário de email 7.2 -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <!-- Seleção de cores 7.3 -->
+        <label for="cor">Selecione sua cor favorita:</label>
+        <input type="color" id="cor" name="cor" required>
+        <br><br>
+        <!-- Idade do Usuário e gênero 7.4 -->
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+        <br><br>
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br><br>
+        <!-- E-Mail e campo de seleção para escolher assunto (dúvida, sugestão ou reclamação) com um texto longo para a mensagem 7.5 -->
+        <label for="email2" class="email">E-mail:</label>
+        <input type="email" id="email2" name="email2" required>
+        <br><br>
+        <label for="assunto" class="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamação">Reclamação</option>
+        </select>
+        <br><br>
+        <label for="mensagem" class="mensagem">Campo de mensagem:</label>
+        <br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea> <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
