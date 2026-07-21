@@ -8,6 +8,7 @@
     font-size: 24px;
     color: rgb(8, 31, 240);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 25px;
 }
 
 /* p é o seletor da tag p do HTML que será estilizada */
