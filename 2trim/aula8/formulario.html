@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Elaborado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário Super Sigma Alfa Elaborado</h1>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+        <br><br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <br><br>
+        <label for="estado">Estado:</label>
+        <input type="select" id="estado" name="estado" required>
+        <br><br>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label for="cargo">natureza do cargo:</label>
+            <input type="radio" id="cargo" name="cargo" value="empregado" checked> Gerência
+            <input type="radio" id="cargo" name="cargo" value="autonomo"> Financeiro
+            <input type="radio" id="cargo" name="cargo" value="autonomo"> Administrativo
+            <input type="radio" id="cargo" name="cargo" value="autonomo"> Jurídico
+            <br>
+
+            <label for="interesse">área de interesse</label>
+            <input type="checkbox"
+        id="interesse" name="interesse" value="">
+        computação
+        <input type="checkbox" id="interesse" name="interesse" value="">biologia
+        <input type="checkbox" id="interesse" name="interesse" value="">meio ambiente
+        <input type="checkbox" id="interesse" name="interesse" value="">engenharia
+        <input type="checkbox" id="interesse" name="interesse" value="">historia
+        <br><br>
+
+        <label for="mini">mini-currículo:</label>
+        <br>
+        <textarea id="mini" name="mini-curriculo" rows="4" cols="50"></textarea>
+        <br><br>
+        </fieldset>
+    </form>
+</body>
+</html>

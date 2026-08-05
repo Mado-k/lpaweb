@@ -1,0 +1,24 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 95vh;
+    background-image: url("https://i.pinimg.com/474x/92/d5/cc/92d5cc20022c759dcf5f59908289fb04.jpg");
+    background-size: 40%;
+}
+
+h1 {
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+    color:cadetblue;
+    background-color: rgb(43, 63, 110);
+}
+
+form {
+    background-color: rgb(43, 63, 110);
+    padding: 20px;
+    border-radius: 10px;
+    color:rgb(87, 168, 168);
+}
