@@ -1,0 +1,17 @@
+/* 
+    c1 é o nome da classe atribuida para uma tag no HTML
+    classes (.) são para múltiplos elementos, ou seja, podem ser aplicadas em mais de uma tag do HTML
+    id (#) é para um único elemento, ou seja, só pode ser aplicado em uma tag do HTML
+*/
+.c1{
+    background-color:blueviolet;
+    font-size: 24px;
+    color: rgb(8, 31, 240);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 25px;
+}
+
+/* p é o seletor da tag p do HTML que será estilizada */
+p {
+    font-size: 20px;
+}
