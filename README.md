@@ -16,8 +16,6 @@ Aqui estão as principais ferramentas e linguagens trabalhadas neste repositóri
 ![JavaScript](https://shields.io)
 ![Git](https://shields.io)
 
-*(Nota: Caso utilize linguagens de Back-end como PHP, Node.js ou Banco de Dados nestas aulas, você pode adicionar os badges correspondentes aqui).*
-
 ### 📁 Organização do Repositório
 
 O código está dividido por períodos letivos para demonstrar a evolução do aprendizado:
