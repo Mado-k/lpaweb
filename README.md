@@ -24,5 +24,4 @@ O código está dividido por períodos letivos para demonstrar a evolução do a
 *   `1trim/`: Primeiros contatos com a estrutura web e sintaxe lógica inicial.
 *   `2trim/`: Exercícios avançados semanais, manipulação de elementos e integração de páginas.
 
----
-*Desenvolvido por um estudante apaixonado por tecnologia do Espírito Santo, Brasil. Conecte-se comigo!*
+
