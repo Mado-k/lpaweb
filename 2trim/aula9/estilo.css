@@ -1,0 +1,39 @@
+.ex1{
+    background-color:red
+}
+
+.ex2{
+    color:blue
+}
+
+.ex3{
+    background-color: rgb(50,205,50)
+}
+
+.ex4{
+    color: rgba(128,128,128,0.5);
+}
+
+.ex5{
+    color: hsl(330,0.75,0.70);
+}
+
+.ex6{
+    background-color: (#FFA500);
+}
+
+.ex7{
+    color: green;
+}
+
+.ex8{
+    color: hsla(200,0.5,0.5,0.75)
+}
+
+.ex9{
+    color: rgba(128,0,128,0.25)
+}
+
+.ex10{
+    background-image: url(tom_holland.jpg)
+}

@@ -1,0 +1,58 @@
+#ex1 {
+    color: #ee030300;
+}
+
+/* EX 2*/
+
+body {
+    font-family: Roboto, arial;
+    background-color: lightgray;
+}
+
+/* EX 3 */
+
+h3 {
+    font-size: 2rem;
+}
+
+/* EX 4 */
+
+.destaque {
+    font-weight: bold;
+}
+
+/* EX 5 */
+
+blockquote {
+    font-style: italic;
+}
+
+/* EX 6 */
+
+h2 {
+    text-transform: uppercase;
+}
+
+/* EX 7 */
+
+p {
+    letter-spacing: 1.5em;
+}
+
+/* EX 8 */
+
+h3 {
+    letter-spacing: 0.2em;
+}
+
+/* EX 9 */
+
+span {
+    white-space: nowrap;
+}
+
+/* EX 10 */
+
+a {
+    color: #10bbff
+}
