@@ -1,0 +1,35 @@
+body{
+    background-color: lightslategray;
+    font-size: 18px;
+    width: 90vw;
+    height: 90vh;
+}
+
+/** atv 01 **/
+h1::before{
+    content: '* ';
+}
+
+/** atv 02 **/
+p::after{
+    content: ' - ';
+}
+
+/** atv 03 **/
+p::first-letter{
+    font-size: 30px;
+}
+
+/** atv 04 **/
+p::first-line{
+    color: aqua;
+}
+
+/** atv 05 **/
+
+ol{
+    list-style-type: circle;
+}
+li::marker{
+    color: rgb(112, 207, 112);
+}

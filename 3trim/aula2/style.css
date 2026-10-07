@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+p {
+    width: 30vw;
+    height: auto;
+}
+
+
+ol::before{
+    content: '<< '
+}
+ol::after{
+    content: ' >>'
+}
+li::marker{
+    content: '😎​👉🏼​ ';
+}
+
+p::first-line{
+    color: rgb(219, 47, 47)
+    
+}
+
+article p:first-of-type{
+    font-size: 30px
+}
